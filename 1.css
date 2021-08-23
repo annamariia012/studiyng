@@ -1,0 +1,124 @@
+body{
+	width: 960px;
+	margin: 10px 200px;
+	background: #F0F0F0;
+}
+header{
+	padding: 10px 15px;
+}
+header h1{
+	float: left;
+	font: bold 3em Times New Roman serif;
+	letter-spacing: -2;
+}
+header p{
+	text-align: right;
+	color: lightgray;
+	padding: 30px 15px 0px 10px;
+	font: normal 1.2em Corsiva;
+}
+.wrapper{
+	background: white;
+	width: 960px;
+	margin: 0 auto;
+	
+}
+nav{
+	padding: 0px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	flex: auto;
+	padding-top: 25px;
+}
+nav ul{
+	background: violet;
+	clear: both;
+	height: 80px;
+	display: flex;
+}
+nav ul li a{
+	text-decoration: none;
+	font: normal 1.3em Times New Roman;
+	color: white;
+}
+nav ul li a:hover{
+	color: black;
+}
+.sidebar{
+	float: left;
+		background: white;
+		width: 320px;
+		margin-top: -16px;
+		padding: 0px 23px 10px 23px;
+}	
+.sidebar h3{
+	font: bold 2.2em Times New Roman;
+}
+.sidebar p{
+	font: normal 1.6em Monospace;
+	text-align: left;
+}
+.content{
+			margin-top: -16px;
+	float: right;
+		background: white;
+			width: 567px;
+					padding: 0px 7px 10px 20px;
+}
+.content h2{
+		font: bold 2.2em Times New Roman;
+}
+.post{
+	color: gray;
+	font-size: 1.1em;
+}
+.post a{
+	color: purple;
+		font-size: 1em;
+}
+main{
+	background: white;
+}
+.article{
+		padding: 7px 20px 0 0;
+				font: normal 1.6em Monospace;
+}
+.article a{
+				font: normal 1em Monospace;
+				color: purple;
+}
+.button{
+		padding-top: 25px;
+		margin: 50px;
+		text-align: right;		
+			
+		
+}
+.button a{
+			text-decoration: none;
+			font: bold 1.6em Monospace;
+			letter-spacing: 7; 
+				border-radius: 10px;
+border: 3px solid purple;
+margin: 40px;
+}
+.content .article{
+	padding: 2em 0 0 0;
+}
+video{
+	padding-top: 5px;
+}
+footer{
+	clear: both;
+	height: 7%;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 0.9em;
+	color: gray;
+	
+}
+footer a{
+	color: purple;
+}
